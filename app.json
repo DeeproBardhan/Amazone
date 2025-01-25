@@ -4,7 +4,7 @@
     "slug": "Amazone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/amazon1.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -13,25 +13,34 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deepro1024.Amazone"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "softwareKeyboardLayoutMode": "pan"
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.deepro1024.Amazone"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/amazon1.png"
     },
     "plugins": [
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/verdana.ttf"]
+          "fonts": [
+            "./assets/fonts/verdana.ttf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e4558f7b-c9e1-4405-a241-46ba2884631c"
+      }
+    }
   }
 }
